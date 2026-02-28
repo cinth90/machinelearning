@@ -1,2 +1,29 @@
-# machinelearning
-Proyecto realizado en el curso de ciencia de datos II.  Se utiliza el dataset Superstore para realizar EDA y entrenamiento de modelos de machine learning
+# Promesa vs. Realidad: Optimización Logística en Superstore
+
+Este proyecto fue desarrollado como parte de la entrega de Ciencia de Datos. El objetivo es analizar los tiempos de entrega y la rentabilidad de una empresa de retail, utilizando técnicas de **Análisis Exploratorio de Datos (EDA)** y **Machine Learning**.
+
+## Motivación y Audiencia
+El mercado actual exige inmediatez. Sin embargo, la brecha entre lo que se promete al cliente y la capacidad de despacho real puede generar pérdidas críticas. 
+* **Audiencia:** Dirección de Experiencia del Cliente y Gerencia de Operaciones.
+* **Problema:** Incumplimiento sistemático en la categoría de Tecnología y saturación logística en meses específicos.
+
+## Tecnologías Utilizadas
+* **Lenguaje:** Python, Google Colab
+* **Librerías:** Pandas, Numpy, Scikit-Learn, Matplotlib, Seaborn.
+* **Fuentes Externas:** Conexión vía API a [Nager.Date](https://date.nager.at/) para la obtención de feriados nacionales en EE.UU.
+
+## Hallazgos Clave
+1. **Puntos Críticos:** La categoría de Tecnología presenta un 5.1% de error en envíos rápidos.
+2. **Impacto Estacional:** Los meses de abril y mayo muestran colapsos operativos con tasas de retraso superiores al 10%.
+3. **Rentabilidad:** El exceso de descuentos en la Región Central (24% promedio) es el principal predictor de pérdidas financieras.
+
+## Modelos de Machine Learning
+Se implementaron dos enfoques principales:
+* **Clasificación (Random Forest):** Para predecir la probabilidad de retraso de un pedido antes de ser despachado.
+* **Regresión (Linear & Random Forest):** Para estimar el beneficio proyectado de cada venta en función de sus características.
+
+## Estructura del Repositorio
+* `Sample - Superstore.csv`: Dataset original.
+* `Analisis_Logistico_Superstore.ipynb`: Notebook con el proceso completo de ETL, EDA y Modelado.
+* `Presentacion_Ejecutiva.pdf`: Resumen de insights para la dirección.
+* `feriados_usa.csv`: Datos enriquecidos obtenidos mediante API.
