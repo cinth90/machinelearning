@@ -24,6 +24,7 @@ Se implementaron dos enfoques principales:
 
 ## Estructura del Repositorio
 * `Sample - Superstore.csv`: Dataset original.
-* `Analisis_Logistico_Superstore.ipynb`: Notebook con el proceso completo de ETL, EDA y Modelado.
-* `Presentacion_Ejecutiva.pdf`: Resumen de insights para la dirección.
-* `feriados_usa.csv`: Datos enriquecidos obtenidos mediante API.
+* `Cinthia_Debenedetto_Superstore_cd2.ipynb`: Notebook con el proceso completo de ETL, EDA y Modelado.
+* `Presentacion y conclusiones Superstore.pdf`: Resumen de insights para la dirección.
+* `feriados_usa.csv`: Datos obtenidos mediante API.
+* `superstore_enriquecido.csv`: Nuevo Dataset enriquecido con datos de API.
