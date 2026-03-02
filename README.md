@@ -13,9 +13,9 @@ El mercado actual exige inmediatez. Sin embargo, la brecha entre lo que se prome
 * **Fuentes Externas:** Conexión vía API a [Nager.Date](https://date.nager.at/) para la obtención de feriados nacionales en EE.UU.
 
 ## Hallazgos Clave
-1. **Puntos Críticos:** La categoría de Tecnología presenta un 5.1% de error en envíos rápidos.
-2. **Impacto Estacional:** Los meses de abril y mayo muestran colapsos operativos con tasas de retraso superiores al 10%.
-3. **Rentabilidad:** El exceso de descuentos en la Región Central (24% promedio) es el principal predictor de pérdidas financieras.
+1. **Puntos Críticos:** La categoría de Furniture presenta grandes perdidas en la Region Central.
+2. **Impacto Estacional:** Los feriados atrasan los pedidos. Los meses de abril y mayo muestran colapsos operativos con tasas de retraso superiores.
+3. **Rentabilidad:** El exceso de descuentos en la Región Central es el principal predictor de pérdidas financieras.
 
 ## Modelos de Machine Learning
 Se implementaron dos enfoques principales:
@@ -23,12 +23,12 @@ Se implementaron dos enfoques principales:
 * **Regresión (Linear & Random Forest):** Para estimar el beneficio proyectado de cada venta en función de sus características.
 
 ## Estructura del Repositorio
-*Data
-  * `Sample - Superstore.csv`: Dataset original.
-  *  `superstore_enriquecido.csv`: Nuevo Dataset enriquecido con datos de API.
-  *  `feriados_usa.csv`: Datos obtenidos mediante API.
 * `Cinthia_Debenedetto_Superstore_cd2.ipynb`: Notebook con el proceso completo de ETL, EDA y Modelado.
 * `Presentacion y conclusiones Superstore.pdf`: Resumen de insights para la dirección.
 * `Proyecto Superstore.ppt`: Presentacion en PowerPoint del proyecto.
+*Data
+     * `Sample - Superstore.csv`: Dataset original.
+     *  `superstore_enriquecido.csv`: Nuevo Dataset enriquecido con datos de API.
+     *  `feriados_usa.csv`: Datos obtenidos mediante API.
 
 
