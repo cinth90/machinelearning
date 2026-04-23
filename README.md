@@ -5,22 +5,22 @@ Este proyecto de Ciencia de Datos aplica un enfoque integral de ingeniería para
 ## Motivación y Audiencia
 En un entorno de competencia agresiva, la ineficiencia logística y las políticas de descuentos descontroladas destruyen el margen neto.
 
-Audiencia: Gerencia de Operaciones y Dirección Financiera.
+##Audiencia: Gerencia de Operaciones y Dirección Financiera.
 
 Problema: Incumplimiento sistemático en entregas "First Class" y erosión del Profit por exceso de descuentos en categorías críticas.
 
-Tecnologías Utilizadas
+##Tecnologías Utilizadas
 Lenguaje: Python (Google Colab).
 
-Modelado: XGBoost (Extreme Gradient Boosting) y K-Means Clustering.
+*Modelado: XGBoost (Extreme Gradient Boosting) y K-Means Clustering.
 
-Optimización: GridSearchCV para ajuste fino de hiperparámetros.
+*Optimización: GridSearchCV para ajuste fino de hiperparámetros.
 
-Validación: Stratified Cross-Validation (K-Fold) para asegurar robustez estadística.
+*Validación: Stratified Cross-Validation (K-Fold) para asegurar robustez estadística.
 
-Visualización: Matplotlib, Seaborn, Plotly (3D Clustering).
+*Visualización: Matplotlib, Seaborn, Plotly (3D Clustering).
 
-Fuentes Externas: Conexión vía API a Nager.Date para el análisis de estacionalidad por feriados.
+F*uentes Externas: Conexión vía API a Nager.Date para el análisis de estacionalidad por feriados.
 
 ## Hallazgos Clave
 1. El Mito de los Feriados: Mediante análisis de densidad (KDE), se demostró que los feriados nacionales no impactan significativamente en las demoras. El cuello de botella es estructural y no estacional.
@@ -32,16 +32,16 @@ Fuentes Externas: Conexión vía API a Nager.Date para el análisis de estaciona
 ## Modelos de Machine Learning implementados
 
 1. Clasificación (Aprendizaje Supervisado)
-   Modelo: XGBClassifier (Boosting).
-   Objetivo: Predecir la probabilidad de retraso de un pedido.Técnica: Stratified K-Fold CV y balanceo de clases mediante scale_pos_weight.
+   *Modelo: XGBClassifier (Boosting).
+   *Objetivo: Predecir la probabilidad de retraso de un pedido.Técnica: Stratified K-Fold CV y balanceo de clases mediante scale_pos_weight.
 
 3. Regresión (Aprendizaje Supervisado)
-   Modelo: XGBRegressor (Boosting).
-   Objetivo: Estimar el Profit proyectado de cada venta.Performance: R^2 de 0.61 y MAE de 9.94 USD, permitiendo una planificación financiera con alta precisión.
+   *Modelo: XGBRegressor (Boosting).
+   *Objetivo: Estimar el Profit proyectado de cada venta.Performance: R^2 de 0.61 y MAE de 9.94 USD, permitiendo una planificación financiera con alta precisión.
 
 5. Segmentación Estratégica (Aprendizaje No Supervisado)
-   Modelo: K-Means Clustering ($k=4$).Métricas:
-   Optimización mediante Método del Codo y Coeficiente de Silhouette.Resultado: Identificación de 4 clústeres de negocio: "Las Joyas", "Hemorragia de Margen", "Volumen Crítico" y "Pedidos Hormiga".
+   *Modelo: K-Means Clustering ($k=4$).Métricas:
+   *Optimización mediante Método del Codo y Coeficiente de Silhouette.Resultado: Identificación de 4 clústeres de negocio: "Las Joyas", "Hemorragia de Margen", "Volumen Crítico" y "Pedidos Hormiga".
    
 ## Estructura del Repositorio
 
