@@ -5,11 +5,11 @@ Este proyecto de Ciencia de Datos aplica un enfoque integral de ingeniería para
 ## Motivación y Audiencia
 En un entorno de competencia agresiva, la ineficiencia logística y las políticas de descuentos descontroladas destruyen el margen neto.
 
-##Audiencia: Gerencia de Operaciones y Dirección Financiera.
+## Audiencia: Gerencia de Operaciones y Dirección Financiera.
 
 Problema: Incumplimiento sistemático en entregas "First Class" y erosión del Profit por exceso de descuentos en categorías críticas.
 
-##Tecnologías Utilizadas
+## Tecnologías Utilizadas
 Lenguaje: Python (Google Colab).
 
 *Modelado: XGBoost (Extreme Gradient Boosting) y K-Means Clustering.
