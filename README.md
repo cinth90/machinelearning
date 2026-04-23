@@ -20,7 +20,7 @@ Lenguaje: Python (Google Colab).
 
 *Visualización: Matplotlib, Seaborn, Plotly (3D Clustering).
 
-F*uentes Externas: Conexión vía API a Nager.Date para el análisis de estacionalidad por feriados.
+*Fuentes Externas: Conexión vía API a Nager.Date para el análisis de estacionalidad por feriados.
 
 ## Hallazgos Clave
 1. El Mito de los Feriados: Mediante análisis de densidad (KDE), se demostró que los feriados nacionales no impactan significativamente en las demoras. El cuello de botella es estructural y no estacional.
